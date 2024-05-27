@@ -28,7 +28,6 @@ def dollars(val:str) -> float:
     return float(ret)
 
 dane['EstimatedSalary'] = dane['EstimatedSalary'].map(dollars)
-
 print(dane.head())
 
 # 5 wykresy 
